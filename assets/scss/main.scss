@@ -1,0 +1,9 @@
+$green: #00FF00;
+$blue: #0000FF;
+
+.green, .brand-color{
+    color: $green !important;
+    &:hover{
+        color: $blue !important;
+    }
+}
